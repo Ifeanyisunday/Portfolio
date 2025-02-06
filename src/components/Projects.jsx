@@ -28,7 +28,7 @@ const projects = [
         image: ecommerce,
         name: "BankMangementSystem",
         technologies: "Spring Boot",
-        github: "https://github.com/Ifeanyisunday"
+        github: "https://github.com/Ifeanyisunday/BankEasyBackend.git"
     }
 ]
 const Projects = () => {

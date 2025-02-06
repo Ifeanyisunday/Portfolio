@@ -2,7 +2,7 @@ import React from 'react'
 import { FaEnvelope, FaMapMarkedAlt, FaPhone } from 'react-icons/fa'
 
 const Contacts = () => (
-    <section id="contact" className="py-20 bg-slate-800/50">
+    <section id="contact" className="py-20 bg-cyan-500">
         <div className="container mx-auto px-6">
             <div className="max-w-2xl mx-auto bg-slate-700 p-8 rounded-xl">
                 <h2 className="text-3xl font-bold text-center mb-8 text-cyan-100">

@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Phone, Mail } from 'lucide-react';
 
 const ContactInfo = () => (
-    <section id="contact-info" className="py-20 bg-slate-800/50">
+    <section id="contact-info" className="py-20 bg-cyan-500">
         <div className="container mx-auto px-6">
             <motion.h2
                 initial={{ opacity: 0, y: 20 }}
@@ -21,7 +21,7 @@ const ContactInfo = () => (
                         <div>
                             <h3 className="text-xl font-semibold text-cyan-100">Message Me on WhatsApp</h3>
                             <a
-                                href="https://wa.me/2348137026343" // Replace with your WhatsApp link
+                                href="https://wa.me/2348127980150" // Replace with your WhatsApp link
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-gray-300 hover:text-cyan-400 transition-colors"
@@ -37,7 +37,7 @@ const ContactInfo = () => (
                         <div>
                             <h3 className="text-xl font-semibold text-cyan-100">Email Me</h3>
                             <a
-                                href="mailto:hibatullahishakira@gmail.com" // Replace with your Gmail
+                                href="mailto:ifeanyisundayonah25@gmail.com" // Replace with your Gmail
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-gray-300 hover:text-cyan-400 transition-colors"

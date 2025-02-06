@@ -27,7 +27,7 @@ const projects = [
         id:4,
         image: ecommerce,
         name: "BankMangementSystem",
-        technologies: "Spring Boot + React",
+        technologies: "Spring Boot",
         github: "https://github.com/Ifeanyisunday"
     }
 ]

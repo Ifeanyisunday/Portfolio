@@ -10,15 +10,18 @@ const Hero = () => (
             >
                 {/* Text Content */}
                 <div>
-                    <h1 className="text-5xl font-bold mb-6 text-gray-500">
+                    <h1 className="text-5xl font-bold mb-6 text-gray-600">
                         Ifeanyi Sunday Onah
                     </h1>
                     <h2 className="text-3xl mb-8 font-light text-slate-500">
                     Software Engineer | Full-Stack Developer | Problem Solver
                     </h2>
-                    <p className="text-lg mb-12 text-slate-500 max-w-2xl">
-                        I use technology to solve real-world problems, from reducing retail losses to streamlining financial operations.
-                        My approach combines <span className="text-cyan-500">data-driven insights</span> with <span className="text-cyan-500">practical software solutions</span> to create measurable impact.
+                    <h3 className='text-slate-600'>💡 Turning complex challenges into impactful solutions through technology.</h3><br />
+                    <p className="text-lg mb-12 text-slate-600 max-w-2xl">
+                    🔧 I specialize in leveraging data-driven insights and practical software engineering to solve real-world problems. 
+                    From optimizing processes to building scalable applications, 
+                    I focus on creating solutions that deliver measurable results and elevate user experiences.
+                    Let’s connect and build impactful technology together!
                     </p>
                     <div className="flex space-x-6">
                         <a

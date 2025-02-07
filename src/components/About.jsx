@@ -72,15 +72,15 @@ const About = () => {
 
             <div className="max-w-3xl mx-auto text-gray-300 space-y-6">
                 <p>
-                    I am Ifeanyi Onah, a passionate problem-solver combining expertise in Brand/Advertising and Software Engineering to create software-driven solutions. With a degree in statistics and intensive training at Semicolon Africa, I bridge technical implementation with business impact.
+                I’m Ifeanyi Onah, a passionate problem-solver combining expertise in Software Engineering and Brand/Advertising Design to create innovative, user-centered solutions. With a background in statistics and hands-on training at Semicolon Africa, I thrive at the intersection of technical execution and creative design.
                 </p>
 
                 <p>
-                    My work focuses on developing practical solutions to real-world challenges, from financial systems optimization to computer vision applications. I thrive in cross-functional environments where technical excellence meets strategic business understanding.
+                My work focuses on developing impactful software solutions—from streamlining financial systems to crafting engaging, visually appealing digital experiences. I enjoy collaborating in cross-functional environments where code meets creativity to deliver high-quality products.
                 </p>
 
                 <p>
-                    When not coding, I explore new developments in AI/ML. Currently seeking opportunities to apply my skills in impactful data science roles.
+                When I’m not coding, I dive into the latest trends in design and technology. I'm currently seeking opportunities to build transformative software products and visually compelling applications.
                 </p>
             </div>
         </div>

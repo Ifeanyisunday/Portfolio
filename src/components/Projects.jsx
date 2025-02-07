@@ -1,42 +1,37 @@
 import React from 'react'
 import ecommerce from "../assets/e-commerce.png"
+import eid from "../assets/eid.png"
 
 const projects = [
     {
         id:1,
-        image: ecommerce,
-        name: "E-commerce",
-        technologies: "React",
-        github: "https://github.com/Ifeanyisunday"
+        image: eid,
+        name: "Still and Motion Designs",
+        technologies: "Adobe suites",
+        github: "https://drive.google.com/drive/folders/1TdFjkPRek0klHLG60YFR0YQiuW_i_pnD?usp=drive_link"
     },
     {
         id:2,
         image: ecommerce,
-        name: "Marketplace",
-        technologies: "Django + React",
-        github: "https://github.com/Ifeanyisunday"
+        name: "Front-end projects",
+        technologies: "React",
+        github: "https://github.com/Ifeanyisunday/BankEasyFrontend.git"
     },
     {
         id:3,
         image: ecommerce,
-        name: "Cashflow Management",
-        technologies: "Django + React",
-        github: "https://github.com/Ifeanyisunday"
-    },
-    {
-        id:4,
-        image: ecommerce,
-        name: "BankMangementSystem",
-        technologies: "Spring Boot",
+        name: "Back-end Projects",
+        technologies: "Django + java",
         github: "https://github.com/Ifeanyisunday/BankEasyBackend.git"
-    }
+    },
 ]
+
 const Projects = () => {
   return (
-    <div className='bg-slate-900 text-white py-20' id='about'>
+    <section className='bg-slate-900 text-white py-20' id="projects">
         <div className='container mx-auto px-8 md:px-16 lg:px-24'>
             <h2 className='text-4xl font-bold text-center mb-12'>Projects</h2>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                 {projects.map(project => (
                     <div key={project.id} className='bg-gray-800 p-6 rounded-lg
                     hover:shadow-lg transform transition-transform duration-300
@@ -52,7 +47,7 @@ const Projects = () => {
 
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

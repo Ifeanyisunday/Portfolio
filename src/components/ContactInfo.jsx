@@ -8,12 +8,12 @@ const ContactInfo = () => (
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="text-4xl font-bold text-center mb-12 text-cyan-100"
+                className="text-4xl font-bold text-center mb-12 text-white"
             >
                 Get in Touch
             </motion.h2>
 
-            <div className="max-w-2xl mx-auto bg-slate-700 p-8 rounded-xl">
+            <div className="max-w-2xl mx-auto bg-slate-900 p-8 rounded-xl">
                 <div className="space-y-6">
                     {/* WhatsApp Contact */}
                     <div className="flex items-center space-x-4">

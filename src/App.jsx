@@ -1,25 +1,39 @@
 import React, { useState, Suspense } from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Services from './components/Services'
-import Projects from './components/Projects'
-import Contacts from './components/Contact'
-import Skills from './components/Skillls'
-import ContactInfo from './components/ContactInfo'
+import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
+import { Home } from './components/Home'
+import Designs from './designs/Designs';
+import Frontend from './frontend/frontend';
+import Backend from './backend/Backend';
+
+const basename = process.env.NODE_ENV === 'development' ? '/' : '/Portfolio';
+
+const router = createBrowserRouter([
+      {
+        path: '/',
+        element: <Home/>,
+        
+      },
+      {
+        path:"/designs",
+        element: <Designs/>
+      },
+      {
+        path:"/frontend",
+        element: <Frontend/>
+      },
+      {
+        path:"/backend",
+        element: <Backend/>
+      },
+    ],
+    { basename }
+  );
+
 
 export const App = () => {
+
   return (
-    <div>
-        <Navbar/>
-        <Hero/>
-        <About/>
-        <Skills/>
-        {/* <Services/> */}
-        <Projects/>
-        <ContactInfo/>
-        <Contacts/>
-    </div>
+    <RouterProvider router={router} />
   )
 }
 

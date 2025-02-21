@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaEnvelope, FaMapMarkedAlt, FaPhone } from 'react-icons/fa'
 
-const Contacts = () => (
+const Contact = () => (
     <section id="contact" className="py-20 bg-cyan-500">
         <div className="container mx-auto px-6">
             <div className="max-w-2xl mx-auto bg-slate-900 p-8 rounded-xl">
@@ -52,4 +52,4 @@ const Contacts = () => (
     </section>
 );
 
-export default Contacts
+export default Contact

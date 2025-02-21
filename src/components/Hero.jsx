@@ -14,7 +14,7 @@ const Hero = () => (
                         Ifeanyi Sunday Onah
                     </h1>
                     <h2 className="text-3xl mb-8 font-light text-slate-500">
-                    Software Engineer | Full-Stack Developer | Problem Solver
+                    Software Engineer | Full-Stack Developer | Designer | Problem Solver
                     </h2>
                     <h3 className='text-slate-600'>💡 Turning complex challenges into impactful solutions through technology.</h3><br />
                     <p className="text-lg mb-12 text-slate-600 max-w-2xl">
@@ -41,14 +41,14 @@ const Hero = () => (
                     className="relative group"
                 >
                     {/* Glow Effect */}
-                    <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-3xl blur opacity-30 group-hover:opacity-50 transition-all" />
+                    <div className="absolute ml-50 mt-5 w-[380px] inset-0 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-3xl blur opacity-30 group-hover:opacity-50 transition-all" />
 
                     {/* Your Image */}
-                    {/* <img
-                        src={new URL('../assets/', import.meta.url).href}
+                    <img
+                        src={new URL('../assets/ify2.jpg', import.meta.url).href}
                         alt="SundayIfeanyi"
-                        className="relative rounded-3xl w-full h-auto border-2 border-cyan-500/20"
-                    /> */}
+                        className="relative ml-50 mt-5 rounded-3xl w-[380px] h-[500px] border-2 border-cyan-500/20"
+                    />
                 </motion.div>
             </motion.div>
         </div>

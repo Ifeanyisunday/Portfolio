@@ -1,32 +1,30 @@
 import React, { useState, Suspense } from 'react'
-import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import { Home } from './components/Home'
 import Designs from './designs/Designs';
 import Frontend from './frontend/frontend';
 import Backend from './backend/Backend';
 
-const basename = process.env.NODE_ENV === 'development' ? '/' : '/Portfolio';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
       {
         path: '/',
         element: <Home/>,
         
       },
       {
-        path:"/designs",
+        path:'/designs',
         element: <Designs/>
       },
       {
-        path:"/frontend",
+        path:'/frontend',
         element: <Frontend/>
       },
       {
-        path:"/backend",
+        path:'/backend',
         element: <Backend/>
       },
-    ],
-    { basename }
+    ]
   );
 
 

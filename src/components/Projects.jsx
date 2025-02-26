@@ -1,6 +1,7 @@
 import React from 'react'
 import ecommerce from "../assets/e-commerce.png"
 import eid from "../assets/eid.png"
+import { Link } from 'react-router-dom'
 
 const projects = [
     {
@@ -39,9 +40,9 @@ const Projects = () => {
                         <img src={project.image} alt='' className="rounded-lg mb-4 w-full h-48 object-cover"/>
                         <h3 className='text-2xl font-bold mb-2'>{project.name}</h3>
                         <p className='text-gray-400 mb-4'>{project.technologies}</p>
-                        <a href={project.explore} className='inline-block bg-gradient-to-r
+                        <Link to={project.explore} className='inline-block bg-gradient-to-r
                         from-green-400 to-blue-500 text-white px-4 py-2
-                        rounded-full' target='_blank' rel='noopener noreferrer'>View all</a>
+                        rounded-full' target='_blank' rel='noopener noreferrer'>View all</Link>
                     </div>
                 ))}
 

@@ -25,6 +25,13 @@ const projects = [
         technologies: "React Vite",
         github: "https://github.com/Ifeanyisunday/facebook-demo-app-react.git"
     },
+    {
+        id:4,
+        image: ecommerce,
+        name: "Global News website",
+        technologies: "React Vite",
+        github: "https://github.com/Ifeanyisunday/News-Website.git"
+    },
 ]
 
 const Frontend = () => {

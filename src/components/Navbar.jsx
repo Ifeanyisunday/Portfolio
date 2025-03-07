@@ -16,7 +16,7 @@ const Navbar = () => (
                     {["Skills", "Projects", "Experience", "Contact"].map((item) => (
                         <Link
                             key={item}
-                            to={`#/${item.toLowerCase()}`}
+                            to={`${item.toLowerCase()}`}
                             className="hover:text-cyan-400 transition-colors"
                         >
                             {item}

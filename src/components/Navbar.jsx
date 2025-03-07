@@ -13,10 +13,10 @@ const Navbar = () => (
             <div className="flex justify-between items-center">
                 <span className="text-2xl font-bold text-gray-200">Sunday Ifeanyi</span>
                 <div className="flex items-center gap-8 text-gray-300">
-                    {["Skills", "/Projects", "Experience", "Contact"].map((item) => (
+                    {["Skills", "Projects", "Experience", "Contact"].map((item) => (
                         <Link
                             key={item}
-                            to={item.toLowerCase()}
+                            to={"/{item.toLowerCase()}"}
                             className="hover:text-cyan-400 transition-colors"
                         >
                             {item}

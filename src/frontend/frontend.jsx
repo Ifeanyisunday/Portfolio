@@ -35,7 +35,7 @@ const projects = [
     {
         id:5,
         image: ecommerce,
-        name: "Global News website",
+        name: "Movie search application",
         technologies: "React",
         github: "https://github.com/Ifeanyisunday/MovieSearch-App.git"
     },

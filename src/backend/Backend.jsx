@@ -42,7 +42,7 @@ const projects = [
     {
         id:5,
         image: ecommerce,
-        name: "Contact management",
+        name: "Task management",
         technologies: "Express js",
         github: "https://github.com/Ifeanyisunday/TaskMangement-expressjs.git"
     },

@@ -4,6 +4,7 @@ import { Home } from './components/Home'
 import Designs from './designs/Designs';
 import Frontend from './frontend/frontend';
 import Backend from './backend/Backend';
+import Projects from './components/Projects';
 
 
 const router = createHashRouter([
@@ -23,6 +24,10 @@ const router = createHashRouter([
       {
         path:'/backend',
         element: <Backend/>
+      },
+      {
+        path:'/projects',
+        element: <Projects/>
       },
     ]
   );

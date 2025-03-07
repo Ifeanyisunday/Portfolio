@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Linkedin, Github} from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => (
     <motion.nav
@@ -12,14 +13,14 @@ const Navbar = () => (
             <div className="flex justify-between items-center">
                 <span className="text-2xl font-bold text-gray-200">Sunday Ifeanyi</span>
                 <div className="flex items-center gap-8 text-gray-300">
-                    {["Skills", "Projects", "Experience", "Contact"].map((item) => (
-                        <a
+                    {["Skills", "/Projects", "Experience", "Contact"].map((item) => (
+                        <Link
                             key={item}
-                            href={`#${item.toLowerCase()}`}
+                            to={item.toLowerCase()}
                             className="hover:text-cyan-400 transition-colors"
                         >
                             {item}
-                        </a>
+                        </Link>
                     ))}
                     <div className="flex gap-4 ml-4">
                         <a href="https://www.linkedin.com/in/sunday-ifeanyi/" target="_blank" rel="noopener noreferrer">

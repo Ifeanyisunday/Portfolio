@@ -39,6 +39,13 @@ const projects = [
         technologies: "PHP",
         github: "https://github.com/Ifeanyisunday/contact-management-PHP.git"
     },
+    {
+        id:5,
+        image: ecommerce,
+        name: "Contact management",
+        technologies: "Express js",
+        github: "https://github.com/Ifeanyisunday/TaskMangement-expressjs.git"
+    },
 ]
 
 const Backend = () => {

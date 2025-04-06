@@ -2,6 +2,7 @@ import React from 'react'
 import ecommerce from "../assets/e-commerce.png"
 import cbt from "../assets/cbt.png"
 import eid from "../assets/eid.png"
+import movie from "../assets/movie.png"
 
 
 const projects = [
@@ -35,7 +36,7 @@ const projects = [
     },
     {
         id:5,
-        image: ecommerce,
+        image: movie,
         name: "Movie search application",
         technologies: "React",
         github: "https://github.com/Ifeanyisunday/MovieSearch-App.git"

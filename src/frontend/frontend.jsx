@@ -1,5 +1,6 @@
 import React from 'react'
 import ecommerce from "../assets/e-commerce.png"
+import cbt from "../assets/cbt.png"
 import eid from "../assets/eid.png"
 
 
@@ -38,6 +39,13 @@ const projects = [
         name: "Movie search application",
         technologies: "React",
         github: "https://github.com/Ifeanyisunday/MovieSearch-App.git"
+    },
+    {
+        id:6,
+        image: cbt,
+        name: "CBT-test application",
+        technologies: "React",
+        github: "https://github.com/Ifeanyisunday/CBT-TEST-app-fronend.git"
     },
 ]
 

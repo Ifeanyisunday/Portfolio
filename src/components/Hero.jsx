@@ -45,7 +45,7 @@ const Hero = () => (
 
                     {/* Your Image */}
                     <img
-                        src={new URL('../assets/ify2.jpg', import.meta.url).href}
+                        src={new URL('../assets/photo.jpg', import.meta.url).href}
                         alt="SundayIfeanyi"
                         className="relative ml-50 mt-5 rounded-3xl w-[380px] h-[500px] border-2 border-cyan-500/20"
                     />

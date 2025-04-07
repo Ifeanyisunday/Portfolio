@@ -3,6 +3,8 @@ import ecommerce from "../assets/e-commerce.png"
 import cbt from "../assets/cbt.png"
 import eid from "../assets/eid.png"
 import movie from "../assets/movie.png"
+import news from "../assets/news.png"
+import fb from "../assets/fb.png"
 
 
 const projects = [
@@ -22,14 +24,14 @@ const projects = [
     },
     {
         id:3,
-        image: ecommerce,
+        image: fb,
         name: "Facebook clone",
         technologies: "React Vite",
         github: "https://github.com/Ifeanyisunday/facebook-demo-app-react.git"
     },
     {
         id:4,
-        image: ecommerce,
+        image: news,
         name: "Global News website",
         technologies: "React Vite",
         github: "https://github.com/Ifeanyisunday/News-Website.git"

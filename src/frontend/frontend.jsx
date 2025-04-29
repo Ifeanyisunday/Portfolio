@@ -1,19 +1,20 @@
 import React from 'react'
 import ecommerce from "../assets/e-commerce.png"
 import cbt from "../assets/cbt.png"
-import eid from "../assets/eid.png"
+import podcast from "../assets/podcast.png"
 import movie from "../assets/movie.png"
 import news from "../assets/news.png"
 import fb from "../assets/fb.png"
+import PageTransition from '../components/Transition'
 
 
 const projects = [
     {
         id:1,
-        image: eid,
-        name: "Bank transaction",
+        image: podcast,
+        name: "African Podcast",
         technologies: "React",
-        github: "https://github.com/Ifeanyisunday/BankEasyFrontend.git"
+        github: "https://african-podcast-next.vercel.app/"
     },
     {
         id:2,
@@ -54,6 +55,7 @@ const projects = [
 
 const Frontend = () => {
   return (
+   <PageTransition>
     <section className='bg-slate-900 text-white py-20' id="projects">
         <div className='container mx-auto px-8 md:px-16 lg:px-24'>
             <h2 className='text-4xl font-bold text-center mb-12'>Front-End Projects</h2>
@@ -67,13 +69,14 @@ const Frontend = () => {
                         <p className='text-gray-400 mb-4'>{project.technologies}</p>
                         <a href={project.github} className='inline-block bg-gradient-to-r
                         from-green-400 to-blue-500 text-white px-4 py-2
-                        rounded-full' target='_blank' rel='noopener noreferrer'>GitHub</a>
+                        rounded-full' target='_blank' rel='noopener noreferrer'>Project Link</a>
                     </div>
                 ))}
 
             </div>
         </div>
     </section>
+    </PageTransition> 
   )
 }
 

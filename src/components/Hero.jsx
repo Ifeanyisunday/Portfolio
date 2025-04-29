@@ -28,7 +28,7 @@ const Hero = () => (
                             href="#contact" // Links to the contact section
                             className="bg-slate-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-cyan-400 transition-all"
                         >
-                            Get in Touch
+                            MORE ABOUT ME
                         </a>
                     </div>
                 </div>
@@ -51,6 +51,9 @@ const Hero = () => (
                     />
                 </motion.div>
             </motion.div>
+            <div>
+                <div></div>
+            </div>
         </div>
     </section>
 );

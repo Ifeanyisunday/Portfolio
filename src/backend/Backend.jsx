@@ -1,12 +1,12 @@
 import React from 'react'
 import ecommerce from "../assets/e-commerce.png"
-import eid from "../assets/eid.png"
+import cbt from "../assets/cbt.png"
 
 
 const projects = [
     {
         id:1,
-        image: eid,
+        image: ecommerce,
         name: "Mini Bank transaction app",
         technologies: "SpringBoot Java",
         github: "https://github.com/Ifeanyisunday/BankEasyBackend.git"
@@ -20,7 +20,7 @@ const projects = [
     },
     {
         id:3,
-        image: ecommerce,
+        image: cbt,
         name: "JambCBT practise app",
         technologies: "Django python",
         github: "https://github.com/Ifeanyisunday/Cbt_practice_test_app_Backend.git"

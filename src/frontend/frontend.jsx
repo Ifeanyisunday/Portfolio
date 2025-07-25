@@ -1,5 +1,6 @@
 import React from 'react'
 import ecommerce from "../assets/e-commerce.png"
+import cal from "../assets/calculator.png"
 import cbt from "../assets/cbt.png"
 import podcast from "../assets/podcast.png"
 import movie from "../assets/movie.png"
@@ -20,7 +21,7 @@ const projects = [
         id:2,
         image: ecommerce,
         name: "Account management system",
-        technologies: "React",
+        technologies: "HTML,CSS, REACT, TAILWIND",
         github: "https://github.com/Ifeanyisunday/AMSS-frontend.git"
     },
     {
@@ -40,9 +41,9 @@ const projects = [
     {
         id:5,
         image: movie,
-        name: "Movie search application",
+        name: "Movie DB",
         technologies: "React",
-        github: "https://github.com/Ifeanyisunday/MovieSearch-App.git"
+        github: "https://github.com/Ifeanyisunday/Moviedb.git"
     },
     {
         id:6,
@@ -50,6 +51,13 @@ const projects = [
         name: "CBT-test application",
         technologies: "React",
         github: "https://github.com/Ifeanyisunday/CBT-TEST-app-fronend.git"
+    },
+    {
+        id:7,
+        image: cal,
+        name: "Casio calculator",
+        technologies: "React",
+        github: "https://github.com/Ifeanyisunday/AMSS-frontend.git"
     },
 ]
 

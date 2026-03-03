@@ -19,41 +19,20 @@ const projects = [
     },
     {
         id:2,
-        image: ecommerce,
-        name: "Account management system",
-        technologies: "HTML,CSS, REACT, TAILWIND",
-        github: "https://github.com/Ifeanyisunday/AMSS-frontend.git"
-    },
-    {
-        id:3,
-        image: fb,
-        name: "Facebook clone",
-        technologies: "React Vite",
-        github: "https://github.com/Ifeanyisunday/facebook-demo-app-react.git"
-    },
-    {
-        id:4,
-        image: news,
-        name: "Global News website",
-        technologies: "React Vite",
-        github: "https://github.com/Ifeanyisunday/News-Website.git"
-    },
-    {
-        id:5,
         image: movie,
         name: "Movie management app",
         technologies: "React, tailwind, typescript",
         github: "https://movie-management-system-sass-fronte.vercel.app/"
     },
     {
-        id:6,
+        id:3,
         image: cbt,
         name: "CBT-test application",
         technologies: "React",
         github: "https://github.com/Ifeanyisunday/CBT-TEST-app-fronend.git"
     },
     {
-        id:7,
+        id:4,
         image: cal,
         name: "Casio calculator",
         technologies: "React",

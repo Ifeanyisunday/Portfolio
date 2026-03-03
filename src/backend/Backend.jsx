@@ -14,38 +14,10 @@ const projects = [
     },
     {
         id:2,
-        image: ecommerce,
-        name: "Account management system",
-        technologies: "Django python",
-        github: "https://github.com/Ifeanyisunday/BankEasyFrontend.git"
-    },
-    {
-        id:3,
         image: cbt,
         name: "JambCBT practise app",
         technologies: "Django python",
         github: "https://github.com/Ifeanyisunday/Cbt_practice_test_app_Backend.git"
-    },
-    {
-        id:4,
-        image: ecommerce,
-        name: "E-comerce",
-        technologies: "Django python",
-        github: "https://github.com/Ifeanyisunday/E-commerce-django.git"
-    },
-    {
-        id:4,
-        image: ecommerce,
-        name: "Contact management",
-        technologies: "PHP",
-        github: "https://github.com/Ifeanyisunday/contact-management-PHP.git"
-    },
-    {
-        id:5,
-        image: ecommerce,
-        name: "Task management",
-        technologies: "Express js",
-        github: "https://github.com/Ifeanyisunday/TaskMangement-expressjs.git"
     },
 ]
 

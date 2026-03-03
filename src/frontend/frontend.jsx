@@ -6,6 +6,7 @@ import podcast from "../assets/podcast.png"
 import movie from "../assets/movie.png"
 import news from "../assets/news.png"
 import fb from "../assets/fb.png"
+import movierental from "../assets/movierental.png"
 import PageTransition from '../components/Transition'
 
 
@@ -40,10 +41,10 @@ const projects = [
     },
     {
         id:5,
-        image: movie,
-        name: "Movie DB",
-        technologies: "React",
-        github: "https://github.com/Ifeanyisunday/Moviedb.git"
+        image: moviierental,
+        name: "Movie management app",
+        technologies: "React, tailwind, typescript",
+        github: "https://movie-management-system-sass-fronte.vercel.app/"
     },
     {
         id:6,

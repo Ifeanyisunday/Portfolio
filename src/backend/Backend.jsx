@@ -1,15 +1,16 @@
 import React from 'react'
 import ecommerce from "../assets/e-commerce.png"
+import movierental from "../assets/movierental.png"
 import cbt from "../assets/cbt.png"
 
 
 const projects = [
     {
         id:1,
-        image: ecommerce,
-        name: "Mini Bank transaction app",
-        technologies: "SpringBoot Java",
-        github: "https://github.com/Ifeanyisunday/BankEasyBackend.git"
+        image: movierental,
+        name: "Movie management app",
+        technologies: "Django python",
+        github: "https://github.com/Ifeanyisunday/Movie-Management-System-SASS-.git"
     },
     {
         id:2,

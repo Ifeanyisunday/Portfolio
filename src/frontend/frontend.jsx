@@ -41,7 +41,7 @@ const projects = [
     },
     {
         id:5,
-        image: moviierental,
+        image: movierental,
         name: "Movie management app",
         technologies: "React, tailwind, typescript",
         github: "https://movie-management-system-sass-fronte.vercel.app/"

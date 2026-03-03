@@ -3,10 +3,9 @@ import ecommerce from "../assets/e-commerce.png"
 import cal from "../assets/calculator.png"
 import cbt from "../assets/cbt.png"
 import podcast from "../assets/podcast.png"
-import movie from "../assets/movie.png"
 import news from "../assets/news.png"
 import fb from "../assets/fb.png"
-import movierental from "../assets/movierental.png"
+import movie from "../assets/movie.png"
 import PageTransition from '../components/Transition'
 
 
@@ -41,7 +40,7 @@ const projects = [
     },
     {
         id:5,
-        image: movierental,
+        image: movie,
         name: "Movie management app",
         technologies: "React, tailwind, typescript",
         github: "https://movie-management-system-sass-fronte.vercel.app/"

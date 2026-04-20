@@ -1,6 +1,6 @@
 import React from 'react'
 import ecommerce from "../assets/e-commerce.png"
-import cal from "../assets/calculator.png"
+import shop from "../assets/shopora.png"
 import cbt from "../assets/cbt.png"
 import podcast from "../assets/podcast.png"
 import news from "../assets/news.png"
@@ -34,9 +34,9 @@ const projects = [
     {
         id:4,
         image: cal,
-        name: "Casio calculator",
+        name: "Shopora E-commerce",
         technologies: "React",
-        github: "https://github.com/Ifeanyisunday/AMSS-frontend.git"
+        github: "https://shopora-tawny.vercel.app/"
     },
 ]
 

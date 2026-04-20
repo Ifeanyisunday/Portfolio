@@ -33,7 +33,7 @@ const projects = [
     },
     {
         id:4,
-        image: cal,
+        image: shop,
         name: "Shopora E-commerce",
         technologies: "React",
         github: "https://shopora-tawny.vercel.app/"

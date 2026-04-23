@@ -29,7 +29,7 @@ const projects = [
         image: merci,
         name: "Merciheart missions",
         technologies: "React",
-        github: "merciheart.org"
+        github: "https://www.merciheart.org/"
     },
     {
         id:4,

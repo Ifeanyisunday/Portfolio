@@ -1,7 +1,7 @@
 import React from 'react'
 import ecommerce from "../assets/e-commerce.png"
 import shop from "../assets/shopora.png"
-import cbt from "../assets/cbt.png"
+import merci from "../assets/merciheart.png"
 import podcast from "../assets/podcast.png"
 import news from "../assets/news.png"
 import fb from "../assets/fb.png"
@@ -26,10 +26,10 @@ const projects = [
     },
     {
         id:3,
-        image: cbt,
-        name: "CBT-test application",
+        image: merci,
+        name: "Merciheart missions",
         technologies: "React",
-        github: "https://github.com/Ifeanyisunday/CBT-TEST-app-fronend.git"
+        github: "merciheart.org"
     },
     {
         id:4,
